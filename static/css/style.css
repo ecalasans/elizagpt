@@ -1,0 +1,89 @@
+body {
+  color: #3a3a3a;
+  font-family: "Montserrat";
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1200px) {
+  main {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+.img-logo-eliza {
+  height: 127px;
+  width: 219px;
+}
+
+.letreiro-container {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letreiro-logo-eliza {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.letreiro-logo-eliza-destaque {
+  color: #ffc04a;
+}
+
+.answer-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.answer-container-screen {
+  height: 400px;
+  border: 2px solid #ffc04a;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  overflow: auto;
+}
+
+.user-type-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+.user-type-input:focus {
+  outline: none;
+}
+
+.answer-elizagpt {
+  color: #ff6347;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.prompt-elizagpt {
+  margin-bottom: 5px;
+}
+
+#user_question {
+  border: none;
+  color: #ff6347;
+  background-color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+#user_question:hover {
+  background-color: #ffc04a;
+  color: white;
+  border: 2px solid #ff6347;
+}
+
+/*# sourceMappingURL=style.css.map */
